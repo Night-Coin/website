@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import logo from '../../logo.png';
 
 const Footer = () => {
   return (
@@ -8,10 +9,8 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <div className="logo-shield">
-                <span className="logo-text">C</span>
-              </div>
-              <span className="brand-name">CryptoSecure</span>
+              <img src={logo} alt="Nightcoin Logo" className="footer-logo-image" />
+              <span className="brand-name">Nightcoin</span>
             </div>
             <p className="footer-description">
               Privacy-focused cryptocurrency for secure, untraceable transactions.
@@ -21,7 +20,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-title">Resources</h4>
             <ul className="footer-links">
-              <li><a href="/whitepaper.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</a></li>
+              <li><a href="./whitepaper.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</a></li>
               <li><a href="#documentation">Documentation</a></li>
               <li><a href="#api">API Reference</a></li>
               <li><a href="#faq">FAQ</a></li>
@@ -52,7 +51,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p className="copyright">
-              © 2024 CryptoSecure. All rights reserved.
+              © 2024 Nightcoin. All rights reserved.
             </p>
             <div className="footer-bottom-links">
               <a href="#privacy">Privacy Policy</a>
