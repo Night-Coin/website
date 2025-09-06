@@ -19,35 +19,10 @@
   gap: 12px;
 }
 
-.logo-shield {
+.logo-image {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #0066cc, #004499);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  transform: rotate(45deg);
-}
-
-.logo-shield::before {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: #000000;
-  border-radius: 4px;
-  transform: rotate(-45deg);
-}
-
-.logo-text {
-  color: #0066cc;
-  font-weight: bold;
-  font-size: 18px;
-  transform: rotate(-45deg);
-  position: relative;
-  z-index: 1;
+  object-fit: contain;
 }
 
 .brand-name {

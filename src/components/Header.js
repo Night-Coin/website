@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import logo from '../../logo.png';
 
 const Header = () => {
   return (
@@ -7,10 +8,8 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <div className="logo-shield">
-              <span className="logo-text">C</span>
-            </div>
-            <span className="brand-name">CryptoSecure</span>
+            <img src={logo} alt="Nightcoin Logo" className="logo-image" />
+            <span className="brand-name">Nightcoin</span>
           </div>
           
           <nav className="nav">

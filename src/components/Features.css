@@ -1,6 +1,6 @@
 .features {
   padding: 5rem 0;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .features-header {
@@ -11,14 +11,14 @@
 .features-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 1rem;
   letter-spacing: -0.5px;
 }
 
 .features-subtitle {
   font-size: 1.2rem;
-  color: #666666;
+  color: #cccccc;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -33,11 +33,11 @@
 }
 
 .feature-card {
-  background-color: #ffffff;
+  background-color: #111111;
   padding: 2.5rem 2rem;
   border-radius: 12px;
   text-align: center;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #333333;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -61,7 +61,7 @@
 
 .feature-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 24px rgba(0, 102, 204, 0.2);
   border-color: #0066cc;
 }
 
@@ -74,13 +74,13 @@
 .feature-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 1rem;
   letter-spacing: -0.3px;
 }
 
 .feature-description {
-  color: #666666;
+  color: #cccccc;
   line-height: 1.6;
   font-size: 1rem;
 }

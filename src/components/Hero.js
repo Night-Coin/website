@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">
-            CryptoSecure Means <span className="highlight">Privacy</span>
+            Nightcoin Means <span className="highlight">Privacy</span>
           </h1>
           <p className="hero-subtitle">
             A privacy-focused cryptocurrency that provides secure, private, and untraceable transactions. 

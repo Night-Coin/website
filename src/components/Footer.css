@@ -23,35 +23,10 @@
   margin-bottom: 1rem;
 }
 
-.footer-logo .logo-shield {
+.footer-logo-image {
   width: 32px;
   height: 32px;
-  background: linear-gradient(135deg, #0066cc, #004499);
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  transform: rotate(45deg);
-}
-
-.footer-logo .logo-shield::before {
-  content: '';
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background-color: #000000;
-  border-radius: 3px;
-  transform: rotate(-45deg);
-}
-
-.footer-logo .logo-text {
-  color: #0066cc;
-  font-weight: bold;
-  font-size: 14px;
-  transform: rotate(-45deg);
-  position: relative;
-  z-index: 1;
+  object-fit: contain;
 }
 
 .footer-logo .brand-name {

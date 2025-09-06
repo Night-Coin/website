@@ -4,19 +4,14 @@ import './Features.css';
 const Features = () => {
   const features = [
     {
-      title: "Private Transactions",
-      description: "All transactions are private by default. Your financial activity remains confidential and untraceable.",
+      title: "Private & Secure Transactions",
+      description: "Built on Tari's implementation of the Mimblewimble protocol with addresses, ensuring all transactions are private, secure, and untraceable by default.",
       icon: "🔒"
     },
     {
       title: "Decentralized Network",
-      description: "No central authority controls the network. It's maintained by a distributed community of users.",
+      description: "Starting with Proof of Work (PoW) and transitioning to Proof of Stake (PoS) for enhanced security. PoS prevents 51% attacks like the one Monero experienced with Qubic, especially when the coin price is high enough.",
       icon: "🌐"
-    },
-    {
-      title: "Secure & Untraceable",
-      description: "Advanced cryptographic techniques ensure your transactions cannot be linked to your identity.",
-      icon: "🛡️"
     },
     {
       title: "Open Source",
@@ -29,7 +24,7 @@ const Features = () => {
     <section className="features" id="features">
       <div className="container">
         <div className="features-header">
-          <h2 className="features-title">Why Choose CryptoSecure?</h2>
+          <h2 className="features-title">Why Choose Nightcoin?</h2>
           <p className="features-subtitle">
             Built on the principles of privacy, security, and decentralization
           </p>
