@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-title">Resources</h4>
             <ul className="footer-links">
-              <li><a href="./whitepaper.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</a></li>
+              <li><a href="{whitepaper}" target="_blank" rel="noopener noreferrer">Whitepaper</a></li>
               <li><a href="#documentation">Documentation</a></li>
               <li><a href="#api">API Reference</a></li>
               <li><a href="#faq">FAQ</a></li>
